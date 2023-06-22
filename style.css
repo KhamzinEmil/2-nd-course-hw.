@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.body {
+    font-family: "Montserrat";
+  }
+.title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding-top: 217px;
+    padding-bottom: 32px;
+}
+.content {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-style: normal;
+    padding-bottom: 32px;
+}
+.button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background: #9C0332;
+    border-radius: 30px;
+    width: 234.06px;
+    height: 48.6px;
+    justify-content: space-evenly;
+}
+.top {
+    background-image: url(pictures/Rectangle\ 1.jpg);
+    height: 1024px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.center {
+    padding-left: calc(50% - 600px);
+}
+.games {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    padding-left: 120px;
+    padding-right: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    background-image: url(pictures/Rectangle\ 5.jpg);
+
+}
+.link {
+    background-repeat: no-repeat;
+    height: 300px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration-line: none;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 32px;
+}
+.game1 {
+    background-image: url(pictures/Rectangle\ 6.svg);
+}
+.game2 {
+    background-image: url(pictures/Rectangle\ 7.svg ); 
+}
+.game3 {
+    background-image: url(pictures/Rectangle\ 8.svg);
+}
