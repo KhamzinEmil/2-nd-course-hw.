@@ -1,0 +1,42 @@
+@media (max-width: 376px) {
+    .top {
+        background-image: url(pictures/Rectangle\ 1.jpg);
+        height: 735px;
+    }
+    .title {
+        font-size: 32px;
+        line-height: 39.01px;
+        text-align: center;
+        display: grid;
+    }
+    .content {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        display: grid;
+    }
+    .br {
+        display: none;
+      }
+    .brbasic {
+        display: grid;
+    }
+    .button {
+        margin: auto;
+    }
+    .games {
+        display: flex;
+        flex-direction: column;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .game1 {
+        background-image: url(pictures/Group\ 1.svg);
+    }
+    .game2 {
+        background-image: url(pictures/Group\ 2.svg);
+    }
+    .game3 {
+        background-image: url(pictures/Group\ 3.svg);
+    }
+}
